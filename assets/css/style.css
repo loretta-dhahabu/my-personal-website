@@ -5,7 +5,10 @@
     padding: 0;
     font-size: 24px;
     box-sizing: border-box;
+ }html{
+     scroll-behavior: smooth;
  }
+
 body{
     font-family: 'Roboto serif',serif;
    
@@ -32,7 +35,7 @@ a{
     align-items: center;
 }
 .logo{
-    color: blueviolet;
+    color: #202A44;
     font-weight: bold;
     padding: .5em;
 }
@@ -129,8 +132,8 @@ a{
     margin-bottom: 2em;
 }
 hr{
-    width: 45%;
-    margin-left: 8em;
+    width: 25%;
+    margin-left: 20em;
     height: .3em;
     background-color: #202A44;
 }
@@ -145,7 +148,7 @@ hr{
 }
 .secondimage img{
     width: 50%;
-    height: 40vh;
+    height: 80vh;
     border: .8em solid black;
     /* border-radius: 15em 0 15em 0; */
 }
@@ -249,7 +252,7 @@ hr{
     outline: none;
 }
 #submit{
-    width: 4em;
+    width: 5em;
     height: 2em;
     padding: .8em;
 }
@@ -257,5 +260,5 @@ hr{
     cursor: grab;
     background-color: #202A44;
     counter-reset: white;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px;
 }
