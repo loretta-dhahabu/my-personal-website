@@ -176,8 +176,45 @@ hr{
     box-sizing: border-box;
 }
 .gallery img{
-    width: 40%;
+    width: 25%;
     height: 55vh;
     margin: .8em;
+}
+/*services section*/
+.services{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border:  1px solid black;
+    margin: 1.5em;
+    align-items: center;
+    text-align: justify;
+    padding: 1em;
+    border-radius: 15px;
+    background: linear-gradient(to top, #202A44 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px #202A44;
+}
+.box img{
+    width: 50px;
+    height:50px;
+    background-color: grey;
 }
 
