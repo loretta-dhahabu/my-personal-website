@@ -134,7 +134,7 @@ hr{
     height: .3em;
     background-color: #202A44;
 }
-.aboutme{
+.heading{
     text-align: center;
     font-size: 2em;
 }
@@ -162,6 +162,22 @@ hr{
     font-size: 1em;
     margin-bottom: 1em;
 }
-/*Portifolio section*/
-
+/*Portfolio section starts here*/
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(60, 58, 58);
+    color: white;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.gallery img{
+    width: 40%;
+    height: 55vh;
+    margin: .8em;
+}
 
