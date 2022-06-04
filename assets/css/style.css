@@ -128,24 +128,40 @@ a{
     padding: 1em;
     margin-bottom: 2em;
 }
+hr{
+    width: 45%;
+    margin-left: 8em;
+    height: .3em;
+    background-color: #202A44;
+}
+.aboutme{
+    text-align: center;
+    font-size: 2em;
+}
 .secondimage{
+    padding-top: 1em;
+    margin-top: 1em;
     display: flex;
 }
 .secondimage img{
-    width: 40%;
+    width: 50%;
     height: 40vh;
+    border: .8em solid black;
+    /* border-radius: 15em 0 15em 0; */
 }
 .intro{
     display: flex;
     flex-direction: column;
     text-align: justify;
+    justify-content: center;
+    align-items: center;
     padding: .8em;
     text-align: center;   
 }
 .intro h2{
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: 1em;
 }
-/*POrtifolio section*/
+/*Portifolio section*/
 
 
