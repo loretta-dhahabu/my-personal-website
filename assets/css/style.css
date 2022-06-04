@@ -217,4 +217,45 @@ hr{
     height:50px;
     background-color: grey;
 }
+/*Contacts section starts here*/
+.contactme{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    padding: 1.5em;
 
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin: 1.5em 0;
+}
+.input{
+    padding: .8em;
+    margin: 1em;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+#msg{
+    width: 20%;
+    padding: 1em;
+    margin: 1.2em;
+    border: none;
+    outline: none;
+}
+#submit{
+    width: 4em;
+    height: 2em;
+    padding: .8em;
+}
+#submit :hover{
+    cursor: grab;
+    background-color: #202A44;
+    counter-reset: white;
+    box-shadow: 0 0 10px white;
+}
