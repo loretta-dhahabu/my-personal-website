@@ -134,10 +134,9 @@ a{
     padding: 2em;
 }
 
-.mainImg {
-    height: 95vh;
-    width: 50%;
-    background-image: url("/assets/images/img8.jpg");
+.mainImg img{
+    height: 70vh;
+    width: 30vw;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
