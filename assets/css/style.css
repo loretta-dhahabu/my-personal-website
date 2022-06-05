@@ -265,10 +265,28 @@ hr{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgb(47, 45, 45);
     color: white;
     padding: 1.5em;
 
+}
+.contactme h5{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+.contactinfo{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locate{
+    line-height: 2em;
+    color:purple;
+}
+.locate :hover{
+    cursor: grabbing;
 }
 .form{
     display: flex;
@@ -280,25 +298,29 @@ hr{
 .input{
     padding: .8em;
     margin: 1em;
-    width: 30%;
+    width: 70%;
     border: none;
     outline: none;
+    font-size: 16px;
 }
 #msg{
     width: 20%;
     padding: 1em;
     margin: 1.2em;
     border: none;
+    font-size: 18px;
     outline: none;
 }
-#submit{
-    width: 5em;
+.submit{
+    width: 8em;
     height: 2em;
-    padding: .8em;
+    border-radius: .8em;
+    border: none;
+    background-color: rgb(217, 19, 118);
 }
-#submit :hover{
-    cursor: grab;
-    background-color: #202A44;
-    counter-reset: white;
-    box-shadow: 0 0 10px;
+.submit:hover{
+    cursor: pointer;
+    background-color: white;
+    counter-reset: gray;
+    box-shadow: 0 0 25px rgb(217, 19, 118);
 }
