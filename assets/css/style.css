@@ -187,7 +187,24 @@ hr{
     font-size: 16px;
     text-align: justify;
 }
-
+.cv{
+    background-color: #202A44;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    width: 8em;
+    height: 2em;
+    margin-top: 1em;
+    text-align: center;
+    font-size: 18px;
+}
+.cv:hover{
+    color: black;
+    background-color: white;
+    cursor:progress;
+    transition: .8s ease-in-out;
+    box-shadow: 0 0 25px rgb(146, 28, 87), 0 0 25px rgb(189, 39, 114);
+}
 /*Portfolio section starts here*/
 .portfolio{
     display: flex;
