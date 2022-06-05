@@ -324,3 +324,42 @@ hr{
     counter-reset: gray;
     box-shadow: 0 0 25px rgb(217, 19, 118);
 }
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    font-size: 18px;
+    height: 20vh;
+    width: 100%;
+}
+.footer p{
+    font-size: 15px;
+    font-style: italic;
+}
+.pages a{
+    font-size: 18px;
+    padding: 1em;
+    gap: 2em;
+}
+.handles ul li a {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+}
+.foot{
+    background-color: rgb(14, 13, 13);
+}
+.foot hr{
+    width: 95%;
+    margin: 0 1em;
+    height: auto;
+    color: grey;
+}
+.foot h5{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
