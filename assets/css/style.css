@@ -330,12 +330,12 @@ hr{
     align-items: center;
     background-color: rgb(14, 13, 13);
     color: white;
-    font-size: 18px;
+    font-size: 13px;
     height: 20vh;
     width: 100%;
 }
 .footer p{
-    font-size: 15px;
+    font-size: 12px;
     font-style: italic;
 }
 .pages a{
@@ -362,4 +362,8 @@ hr{
     font-size: 12px;
     color: white;
     text-align: center;
+}
+.up{
+   color: white;
+   
 }
