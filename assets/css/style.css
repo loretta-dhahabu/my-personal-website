@@ -381,3 +381,12 @@ hr{
 .show-scroll{
     bottom: 1.5em;
 }
+::-webkit-scrollbar{
+    width: .5em;
+    background-color: darkgrey;
+    border-radius: .8em;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #202A44;
+    border-radius: .8em;
+}
