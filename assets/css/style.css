@@ -168,7 +168,7 @@ hr{
     width: 50%;
     height: 80vh;
     border: .8em solid black;
-    /* border-radius: 15em 0 15em 0; */
+    border-radius: 8em 0 8em 0;
 }
 .intro{
     display: flex;
@@ -237,8 +237,9 @@ hr{
 .box{
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 450px;
+    width: 30%;
+    height: 300px;
+    font-size: 18px;
     border:  1px solid black;
     margin: 1.5em;
     align-items: center;
@@ -288,12 +289,16 @@ hr{
 .locate :hover{
     cursor: grabbing;
 }
+/* FORM*/
 .form{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     align-items: center;
     margin: 1.5em 0;
+    background-color: rgb(170, 167, 162);
+    border: 1px solid;
+    border-radius: .5em;
 }
 .input{
     padding: .8em;
@@ -324,6 +329,7 @@ hr{
     counter-reset: gray;
     box-shadow: 0 0 25px rgb(217, 19, 118);
 }
+/* THE FOOTER SECTION STARTS HERE*/
 .footer{
     display: flex;
     justify-content: space-around;
@@ -338,10 +344,14 @@ hr{
     font-size: 12px;
     font-style: italic;
 }
+.owner h3{
+    font-size: 14px;
+}
 .pages a{
     font-size: 18px;
     padding: 1em;
     gap: 2em;
+    color: white;
 }
 .handles ul li a {
     display: flex;
