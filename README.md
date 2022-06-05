@@ -4,7 +4,7 @@ Loretta Dhahabu Jefwa
  # Description 
  A website created using HTML,CSS and JavaScript to display information that represents the portfolio website for Loretta Dhahabu. 
  ## Webpage: 
- https://github.com/loretta-dhahabu/
+ https://loretta-dhahabu.github.io/my-personal-website/
 
 ## repository:
 https://github.com/loretta-dhahabu/my-personal-website 
