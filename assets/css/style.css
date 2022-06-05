@@ -91,6 +91,18 @@ a{
     justify-content: center;
     background-color: black
 }
+.unicons{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1em;
+}
+.unicons:hover{
+    cursor: pointer;
+}
 .mainContent{
     color: white;
     text-align: center;
@@ -101,18 +113,24 @@ a{
     background-color: #202A44;
     border: none;
     border-radius: 1em;
-    width: 4em;
-    height: 2em;
+    width: 7.5em;
+    height: 2.5em;
     cursor: pointer;
     transition: .6s ease;
     margin-top: 1em;
-    font-size: 1em;
+    font-size: .6em;
+    color: white;
+    text-align: center;
 }
 .hireMe:hover{
     color: black;
     background-color: white;
     transition: .6s ease-out;
     box-shadow: 0 0 10px white, 0 0 15px white;
+}
+.scroll{
+    font-size: 15px;
+    padding: 2em;
 }
 
 .mainImg {
@@ -165,6 +183,11 @@ hr{
     font-size: 1em;
     margin-bottom: 1em;
 }
+.intro p{
+    font-size: 16px;
+    text-align: justify;
+}
+
 /*Portfolio section starts here*/
 .portfolio{
     display: flex;
