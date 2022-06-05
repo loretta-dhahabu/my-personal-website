@@ -390,3 +390,181 @@ hr{
     background-color: #202A44;
     border-radius: .8em;
 }
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(59, 58, 58);
+}
+/* MEDIA QUERIES*/
+/*for small devices*/
+@media screen and (max-width: 360px) {
+    .header{
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+    .nav_menu{
+        padding: 1em .75em 2em;
+    }
+    .navList{
+        column-gap: 0;
+
+    }
+    .homeSection{
+        grid-template-columns: .25fr 3fr;
+        height: 820px;
+
+    }
+    .portfolio, .heading{
+        font-size: .5em;
+    }
+    .contactme, .heading{
+        font-size: .5em;
+    }
+     .secondimage img{
+            width: 300px;
+            height: 175px;
+        }
+        .intro h2{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .portfolio{
+            align-items: center;
+        }
+        .gallery img{
+            width: 250px;
+            height: 150px;
+            margin: .8em;
+        }
+
+    .services{
+        grid-template-columns: max-content;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .box h2{
+        font-size: 1em;
+    }
+    .input{
+        width: 80%;
+
+    }
+    #msg{
+        width: 90%;
+    }
+    .submit{
+        width: 50%;
+        font-size: 12px;
+    }
+
+       
+}
+ /*for tablet devices*/
+@media screen and (max-width:800px){
+    .navbar{
+        align-items: center;
+        font-size: 15px;
+    }
+        
+        .navbar ul{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .mainImg{
+            width: 350px;
+            height: 200px;
+        }
+
+        .heading{
+            font-size: 3em;
+        }
+        .secondimage{
+            flex-direction: column;
+            align-items: center;
+        }
+        .secondimage img{
+            width: 475px;
+            height: 380px;
+        }
+        .intro h2{
+            text-align: center;
+            padding: 1em;
+        }
+        .input{
+            width: 60px;
+        }
+        #msg{
+            width: 55px;
+        }
+        .submit{
+            width: 20%;
+        }
+        
+        
+    }
+    @media screen and (max-width:412px){
+        .portfolio, .heading{
+        font-size: 1.5em;
+    }
+     .gallery img{
+            width: 250px;
+            height: 150px;
+            margin: .8em;
+        }
+
+    .services{
+        grid-template-columns: max-content;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .box h2{
+        font-size: 1em;
+    }
+    }
+    @media screen and (max-width:768px){
+       .navbar{
+        align-items: center;
+        font-size: 15px;
+    }
+        
+        .navbar ul{
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .mainImg{
+            width: 400px;
+            height: 300px;
+        }
+
+        .heading{
+            font-size: 3em;
+        }
+        .secondimage{
+            flex-direction: column;
+            align-items: center;
+        }
+        .secondimage img{
+            width: 475px;
+            height: 380px;
+        }
+        .intro h2{
+            text-align: center;
+            padding: 1em;
+        }
+        .gallery img{
+             width: 280px;
+            height: 150px;
+            margin: .8em;
+        }
+        .box h2{
+        font-size: 1em;
+        }
+        .input{
+            width: 60px;
+        }
+        #msg{
+            width: 55px;
+        }
+        .submit{
+            width: 20%;
+        }
+    }
