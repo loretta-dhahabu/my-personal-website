@@ -137,7 +137,7 @@ a{
 .mainImg {
     height: 95vh;
     width: 50%;
-    background-image: url(/assets/images/img8.jpg);
+    background-image: url(assets/images/img8.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
